@@ -1,0 +1,91 @@
+body {
+    margin:0 150.5px;
+    background-color: lightgray;
+    font-family:serif;
+    color:aliceblue;
+    background-image: url(../img/cen\ ベクター.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1366px;
+}
+.container {
+    padding-top: 12px;
+}
+.header_main {
+    display: flex;
+}
+h1 {
+    margin-right: auto;
+    font-size: 90px;
+}
+.menu_main_list li {
+    display: inline;
+    font-size: 60px;
+    line-height: 90px;
+    margin-left: 20px;
+}
+.menu_sub_list  {
+    display: flex;
+}
+.menu_sub_list li {
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+a {
+    text-decoration: none;
+    color:aliceblue;
+    text-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+footer {
+    margin-top: 650px;
+    font-size: 36px;
+}
+@media (max-width:768px) {
+    body {
+        background-image: url(../img/cen\ ベクター.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 60px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    .menu_main_list li {
+        font-size: 40px;
+    }
+    .menu_main_list li+li {
+        margin-left: 10px;
+    }
+    .menu_sub_list li {
+        font-size: 30px;
+    }
+    footer {
+        font-size: 24px;
+        margin-top: 300px;
+        background-size: cover;
+    }
+}
+@media (max-width:428px) {
+    body {
+        background-image:url(../gigafile-0506-7154fcdd0e94d19a43696792cb418e34/CENlogo\ 420\ 900.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 20px 0 0;
+    }
+    h1 {
+        font-size: 70px
+    }
+    .menu_main_list li {
+        display: block;
+        font-size: 45px;
+    }
+    .menu_sub_list {
+        display: block;
+        font-size: 45px;
+    }
+    footer {
+        margin-top: 80px;
+    }
+}
