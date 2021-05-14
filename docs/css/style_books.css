@@ -1,8 +1,8 @@
-.touch > p {
+h1 {
   font-size: 36px;
   color: #000;
 }
-.touch > p:hover {
+h1:hover {
   font-size: 144px;
   color: red;
   text-shadow: 0 0 .8px rgba(0, 0, 0, .8);
