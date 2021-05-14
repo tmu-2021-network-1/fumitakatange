@@ -7,6 +7,7 @@ body {
     text-align: center;
   }
   #studios > div {
+    float: left;
     margin: 1em 0;
     padding: 0.5em;
     background: #f8f8f8;
