@@ -22,6 +22,11 @@ body {
     text-decoration: none;
     color: #000;
     text-shadow: 0 0 8px rgba(0, 0, 0, .5);
+    font-size: 48px;
+}
+.top_menu a:hover {
+    color: red;
+    font-size: 56px;
 }
 .top_img img {
     height: 300px;
