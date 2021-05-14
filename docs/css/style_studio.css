@@ -12,6 +12,10 @@ body {
     background: #f8f8f8;
     min-height: 3em;
   }
+  #studios > div:hover {
+    background: #fff;
+    border-radius: 50%;
+  }
   .studio-title {
     font-weight: bold;
   }
