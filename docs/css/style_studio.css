@@ -3,7 +3,7 @@ body {
   }
   h1, h2 {
     font-weight: 400;
-    color: steelblue;
+    color: red;
   }
   #studios > div {
     margin: 1em 0;
@@ -13,6 +13,7 @@ body {
   }
   .studio-title {
     font-weight: bold;
+    text-align: center;
   }
   .studio-title-en {
     margin-left: 1em;
